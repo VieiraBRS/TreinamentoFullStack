@@ -139,3 +139,75 @@ h3#h3-diferenciais {
 h2#h2-oquefalam span {
     font-weight: 600;
 }
+
+/* Seção Blog */
+
+p.blog-postadoem {
+    font-size: 15px;
+
+}
+
+.blog-postadoem a {
+    font-weight: 600;
+    color: #f7a70c;
+    text-decoration: none;
+}
+
+a.blog-titulopost {
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+p.blog-descricaopost {
+    font-size: 17px;
+}
+
+/* Seção Como Ajudar */
+
+span.comoajudar-realce {
+    font-weight: 600;
+}
+
+ul.comoajudar-lista,
+p.comoajudar-paragrafo  {
+    font-size: 19px;
+}
+
+.comoajudar-lista a,
+.comoajudar-paragrafo a {
+    color: #008ff7;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.comoajudar-paragrafo b {
+    font-weight: 600;
+}
+
+/* Seção Mini Curso */
+
+.minicurso-realce {
+    font-weight: 600;
+}
+
+/* Seção Rodapé */
+
+p.rodape-titulo {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+p.rodape-subtitulo {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+p.rodape-seg-subtitulo {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.rodape-link {
+    color: #1a77a4;
+}
