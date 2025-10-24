@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags Específicas</title>
+</head>
+<body>
+    <!-- Citações -->
+    <!-- <blockquote cite= link (usar como parágrafo)-->
+    <!--  <q> citação (na mesma linha) -->
+    <!-- <cite> Está sendo citado, (linha de baixo) -->
+
+     <p>Segundo fulano:</p>
+     <blockquote cite="file:///C:/Users/Desktop/Desktop/FullStack/FullStack/TreinamentoFullStack/Aprofundando%20HTML/Aula2e3.html">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde consequatur laudantium adipisci magni inventore, asperiores neque recusandae assumenda. Error labore architecto nihil atque pariatur blanditiis corrupti maiores recusandae qui facere.
+     </blockquote>
+
+     <p>Segundo ciclano: 
+        <q cite="file:///C:/Users/Desktop/Desktop/FullStack/FullStack/TreinamentoFullStack/Aprofundando%20HTML/Aula2e3.html">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque provident magnam, eum ipsam nesciunt labore sed. Saepe placeat quo commodi harum sint provident, fuga quod voluptas, dicta maxime quasi ullam!
+        </q>
+    </p>
+
+    <p>Segundo <cite>Beltrano</cite>:</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid, debitis. Eligendi omnis placeat dolor ut id dolores ullam? Rerum porro molestiae eligendi atque minus expedita, sint vel voluptatum quia quisquam!</p>
+
+    <!-- Abreviações -->
+    <!-- <abbr> (abreviation) quando usuário passar o mouse em cima -->
+
+    <p>O <abbr title="HyperText Markup Language">HTML</abbr> é uma linguagem utilizada na criação de sites para a web.</p>
+
+    <!-- Detalhes de contato (informações do Usuário) -->
+    <!-- Colocar as informações dentro de <address> -->
+
+    <address>
+        <p>Telefone: 55 9898-8765</p>
+        <p>Endereço: Rua Estreita com curva - 345</p>
+    </address>
+
+    <!-- Códigos e Datas -->
+
+    <!-- Colocar o código dentro da tag <code> -->
+    <!-- Para deixar ele igual ao editor de texto usar a tag <pre> -->
+    <!-- Para o HTML entender que é uma variável usar a tag <var> -->
+    <!-- Para retratar um estilo de uma resposta do computador usar a tag <samp> -->
+    <!-- Para representar as teclas do teclado no texto usar a tag <kbd> -->
+
+    <pre><code>
+        function () {
+    console.log("Olá, mundo!")
+        }
+
+    var nome = "Diego";
+
+    </code></pre>
+
+    <p>Dentro do código acima, a variável <var>nome</var> é igual a Deigo</p>
+
+    <samp>Resposta de um Computador</samp>
+
+    <p>Você deveria apertar as teclas <kbd>CTRL+K</kbd></p>
+
+    <!-- Datas -->
+    <!-- Para represntar datas colocar a tag <time> - datetime="25-10-24>" (ano - mês - dia) -->
+    <time datetime="25-10-24">Dia 24 de Outubro de 2025</time>
+    
+</body>
+</html>
