@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <!-- Todos elementos do formulário tem que estar dentro da tag <form> -->
+        <!-- Dentro da tag tem os argumentos (atributos) -->
+            <!-- action=" para onde você vai enviar as informações " -->
+        <!-- <input> entrada do usuário, com type="" -->
+         <!-- <label> uma legenda referente ao ID do formulário -->
+        <!-- colocar placeholder no input (o que vai ficar escrito na caixa) -->
+        <!-- Para exigir um padrão colocar pattern no input -->
+         <!-- Para colocar a legenda do padrão usar title no input -->
+        <!-- Para ser requisito colocar required no input -->
+    <main>
+        <section>     
+            <form action="" method="">
+                <div>
+                    <label for="name">Nome</label>
+                    <input 
+                    id="name" 
+                    name="name"
+                    type="text" 
+                    pattern="[a-zA-Z]+" 
+                    title="Apenas letras" 
+                    placeholder="Seu primeiro nome" 
+                    required="">
+                </div>
+
+                <div>
+                    <label for="email">E-mail</label>
+                    <input 
+                    id="email" 
+                    name="email" 
+                    type="email" 
+                    placeholder="Seu melhor E-mail" 
+                    required="">
+                </div>
+
+                <div>
+                    <label for="phone">Telefone</label>
+                    <input 
+                    id="phone" 
+                    name="phone" 
+                    type="number" 
+                    placeholder="Seu telefone" 
+                    required="">
+                </div>
+
+        <!-- para criar botão usar a tag <button> -->
+            <!-- para formulário type="submit" -->
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+         
+</body>
+</html>
