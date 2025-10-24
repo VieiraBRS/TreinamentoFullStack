@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+</head>
+<body>        
+    <!-- criar a tabela com a tag <table> -->
+
+    <table>
+
+        <!-- Elementos dentro de uma tabela -->
+        <!-- <caption> legenda da tabela -->
+        
+        <caption>Legenda da Tabela</caption> 
+
+
+        <!-- Quando quiser mudar a formatação das colunas usar a tag <colgroup> -->
+            <!-- span="" para quantas colunas  -->
+        <colgroup>
+            <col>
+            <col span="2" style="background-color: red;">
+            
+        </colgroup>
+
+
+        <!-- cabeçalho da tabela com a tag <thead> -->
+            <!-- dentro do <tr> colocar <th>-->
+
+        <thead>
+            <tr>
+                <th>Cabeçalho1</th>
+                <th>Cabeçalho2</th>
+                <th>Cabeçalho3</th>
+            </tr>
+        </thead>
+
+        <!-- dentro de um <tbody> -->
+            <!-- toda linha da tabela dentro da tag <tr> -->
+                <!-- todo dado dentro da <tr> colocar <td>  -->
+
+        <tbody>
+            <tr>
+                <th>Cabeçalho 4</th>
+                <td>Informação 2</td>
+                <td>Informação 3</td>
+            </tr>
+            <tr>
+                <th>Cabeçalho 5</th>
+                <td>Informação 5</td>
+                <td>Informação 6</td>
+            </tr>
+        </tbody>
+
+        <!-- Rodapé da tabela com a tag <tfoot> -->
+
+        <tfoot>
+            <tr>
+                <th>Rodapé1/Cabeçalho 1</th>
+                <td>Rodapé2</td>
+                <td>Rodapé3</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
